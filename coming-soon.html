@@ -48,8 +48,12 @@
     a{color:#a7d1ff; text-decoration:none;}
     a:hover{text-decoration:underline;}
     .foot{margin-top:14px; display:flex; gap:10px; flex-wrap:wrap; align-items:center; justify-content:space-between;}
-    .btn{display:inline-block; padding:10px 12px; border-radius:12px; border:1px solid var(--border); background:rgba(255,255,255,.04); color:var(--text); font-size:13px;}
-    .btn:hover{background:rgba(255,255,255,.07)}
+    .btn{display:inline-block; padding:12px 14px; border-radius:12px; border:1px solid rgba(255,255,255,.16); background:linear-gradient(180deg, rgba(255,59,48,.28), rgba(255,59,48,.10)); color:var(--text); font-size:13px; font-weight:800; text-transform:uppercase; letter-spacing:.6px; box-shadow:0 10px 30px rgba(255,59,48,.18)}
+    .btn:hover{background:linear-gradient(180deg, rgba(255,59,48,.36), rgba(255,59,48,.14)); box-shadow:0 14px 38px rgba(255,59,48,.24)}
+    .btn:active{transform:translateY(1px)}
+    .btn-secondary{background:rgba(255,255,255,.04); border:1px solid var(--border); box-shadow:none; font-weight:700; text-transform:none; letter-spacing:0}
+    .btn-secondary:hover{background:rgba(255,255,255,.07)}
+    .btn-disabled{opacity:.55; cursor:not-allowed; pointer-events:none; background:rgba(255,255,255,.03); box-shadow:none}
     .muted{color:var(--muted); font-size:12px}
   </style>
 </head>
@@ -100,7 +104,7 @@
       <div class="foot">
         <div>
           <a class="btn" href="https://alphac007.github.io/trump3fight/">Enter Trump3Fight now</a>
-          <a class="btn" href="https://alphac007.github.io/blind-box/">Blind Box</a>
+          <span class="btn btn-secondary btn-disabled" aria-disabled="true">Blind Box — Coming soon</span>
         </div>
         <div class="muted">If redirect doesn’t work, use the buttons above.</div>
       </div>
