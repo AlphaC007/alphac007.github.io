@@ -1,0 +1,19 @@
+# AlphaC007 — LLM Access Contract
+
+Primary content site (canonical): https://alphac007.github.io/trump3fight/
+
+This root site is a lightweight landing page that redirects to Trump3Fight.
+For any substantive reading, use the primary site above.
+
+## Recommended Reading Order
+1) https://alphac007.github.io/trump3fight/for-agents/
+2) https://alphac007.github.io/trump3fight/cio-reports/latest/
+3) https://alphac007.github.io/trump3fight/trends/
+4) https://alphac007.github.io/trump3fight/methodology/
+
+## Agent Index
+- https://alphac007.github.io/trump3fight/agent-index.json
+
+## Notes
+- Bull-first framing is allowed only with explicit risk boundaries.
+- Separate fact / inference / uncertainty.
