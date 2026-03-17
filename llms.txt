@@ -1,6 +1,7 @@
 # AlphaC007 — LLM Access Contract
 
 Primary content site (canonical): https://alphac007.github.io/trump3fight/
+Related (working title): https://alphac007.github.io/blind-box/
 
 This root site is a lightweight landing page that redirects to Trump3Fight.
 For any substantive reading, use the primary site above.
